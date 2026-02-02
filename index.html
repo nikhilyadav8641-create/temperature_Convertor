@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+        <h1>🌡️ TEMPERATURE CONVERSION</h1>
+        <div class="body_section">
+
+
+            <div class="temp_ConverBox">
+            <div class="from">
+            <select class="control">
+                <option value="celsius">Celsius(°C)</option>
+                <option value="fahrenheit">Fahrenheit(°F)</option>
+                <option value="kelvin">Kelvin(K)</option>
+            </select>
+            </div>
+            <div class="to">
+            <select class="control">
+                <option value="celsius">Celsius(°C)</option>
+                <option value="fahrenheit">Fahrenheit(°F)</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            </div>
+            </div>
+
+
+
+        <div class="inputBox">
+            <div class="input">
+            <input class="control" type="text" id="from_temp" placeholder="Temp" min="0" autocomplete="off"/>
+            </div>
+
+
+            <div >
+         <button class="control" id="btn">Calculate</button>
+       </div>
+            
+        </div>
+
+         <div class="result">
+                <p class="error"></p>
+                <p class="answer"></p>
+            </div>
+
+
+    </div>  
+
+    <script src="script.js"></script>
+</body>
+</html>
