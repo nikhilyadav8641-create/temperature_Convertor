@@ -30,7 +30,15 @@ A simple and interactive Temperature Converter web application built using HTML,
 
 ● JavaScript (ES6) – Logic and interactivity
 
-📂 Project Structure Temperature-Converter/ │ ├── index.html # Main HTML file ├── style.css # Styling ├── script.js # Conversion logic └── README.md # Project documentation
+📂 Project Structure 
+
+Temperature-Converter/
+│
+├── index.html      # Main HTML file
+├── style.css       # Styling
+├── script.js       # Conversion logic
+└── README.md       # Project documentation
+
 
 ⚙️ How It Works
 
